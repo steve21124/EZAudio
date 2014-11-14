@@ -10,7 +10,7 @@
 //  in the Software without restriction, including without limitation the rights
 //  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 //  copies of the Software, and to permit persons to whom the Software is
-//  furnished to do so, subject to the following conditions:
+//  furnished to do so, subject to the following conditions:(void)checkResult:(OSStatus)result
 //
 //  The above copyright notice and this permission notice shall be included in
 //  all copies or substantial portions of the Software.
@@ -248,7 +248,7 @@
 		// no, format it as an integer
 		sprintf(errorString, "%d", (int)result);
 	fprintf(stderr, "Error: %s (%s)\n", operation, errorString);
-	exit(1);
+//	exit(1);
 }
 
 #pragma mark - Math Utility
