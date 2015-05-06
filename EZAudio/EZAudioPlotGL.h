@@ -68,6 +68,8 @@ typedef struct {
 #elif TARGET_OS_MAC
 @interface EZAudioPlotGL : NSOpenGLView
 #endif
+//TODO : Quick hack
+@property (nonatomic,strong) EZAudioPlotGLKViewController *glViewController;
 
 #if TARGET_OS_IPHONE
 
